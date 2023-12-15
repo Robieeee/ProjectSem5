@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat">
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/primary_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message The Property !"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="17dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        tools:layout_editor_absoluteX="-16dp"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        tools:layout_editor_absoluteY="96dp" />
+    <TextView
+        android:id="@+id/pesan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your host or staff hotel at the property can answer any questions about your upcoming trip. Be patient !"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        tools:layout_editor_absoluteX="-16dp"
+        app:layout_constraintTop_toBottomOf="@id/pesan"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="23dp"
+        android:text="Messages"
+        android:textAlignment="center"
+        android:tint="#FFFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/pesanhotel1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/grey"
+        android:layout_marginTop="17dp"
+        app:layout_constraintTop_toBottomOf="@id/pesan2"
+        />
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
